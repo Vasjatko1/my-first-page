@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.nav li {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+.submenu {
+    list-style-type: none;
+}
+.container {
+    position: relative;
+    width: 500px;
+    margin-left: 35%;
+}
+.submenu a {
+    text-decoration: none;
+    color: black;
+}
+#main {
+    border: 2px solid;
+}
+
+.info {
+    border: 2px solid;
+    background: bisque;
+}
+.sidebar {
+    border: 2px solid;
+    background: bisque;
+}
+.footer {
+    border: 2px solid;
+    background: bisque;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+}
+#content {
+    display: flex;
+}
+.container {
+    background-color: rgb(226, 209, 183);
+}
